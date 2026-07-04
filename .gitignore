@@ -26,3 +26,23 @@ override.tf.json
 .DS_Store
 *.swp
  
+ 
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.tfstate.lock.info
+ 
+# Generated Lambda packages
+*.zip
+ 
+# Backup and temporary files
+*.backup
+*.before-step-functions
+plan*.txt
+ 
+# Generated reports
+transaction-execution-report.csv
+__pycache__/
+*.pyc

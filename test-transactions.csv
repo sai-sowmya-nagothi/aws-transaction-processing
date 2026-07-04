@@ -1,0 +1,4 @@
+transaction_id,amount,currency
+TXN-1001,125.50,USD
+TXN-1002,250.00,USD
+TXN-1003,75.25,USD
